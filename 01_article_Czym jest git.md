@@ -1,45 +1,45 @@
-Co to jest system kontroli wersji
+Co to jest system kontroli wersji?
 
-Systemy kontroli wersji (ang. VCS – version control system) – jest to oprogramowanie, 
+System kontroli wersji (ang. VCS – version control system), jest to oprogramowanie, 
 które wspiera programistów podczas pracy nad projektem programistycznym.
 
-Pozwala ono m.in. na sprawdzanie zmian, jakie zostały wykonane, cofanie modyfikacji.
-Dzięki niemu wiemy, kto i kiedy daną zmianę wprowadził. 
-Modyfikacje mogą zawierać dodatkowe opisy tak, by cel określonych zmian był łatwiejszy do interpretacji.
+Pozwala ono m.in. na sprawdzanie zmian, jakie zostały wykonane oraz cofanie niniejszych modyfikacji.
+Dzięki niemu wiemy, kto stoi za daną zmianą i kiedy ją zastosował. 
+Modyfikacje mogą zawierać dodatkowe opisy tak, by cel i przyczyna określonych zmian były łatwiejsze do zinterpretowania.
 
 Wyobraź sobie, że chcesz przechowywać różne wersje swojego oprogramowania, 
-naturalnym sposobem byłoby tworzenie kopii w oddzielnych katalogach. 
-Dodatkowo, by mieć większą kontrolę nad wersjami w nazwie dodamy oraz krótki opis. 
-Jeżeli chcielibyśmy rozszerzać informacje o wprowadzanych zmianach możliwe,
- że dodatkowo utworzymy plik tekstowy lub excel z dodatkowym opisem.
+naturalnym sposobem byłoby stworzenie kopii w oddzielnych, przeznaczonych do tego katalogach. 
+Dodatkowo, by mieć większą kontrolę nad wersjami w nazwie dodasz krótki opis. 
+Jeżeli chcsz rozszerzać informacje o wprowadzanych zmianach możliwe,
+że dodatkowo utworzysz plik tekstowy lub kalkulacyjny exel z dodatkowym opisem.
 
-Takie rozwiązanie nie jest niestety pozbawione wad, z każdą wersją zwiększa się rozmiar 
-naszego archiwum. Łatwo przy takim podejściu o pomyłkę np. wprowadzić zmiany w złym katalogu. 
-Trudnym jest cofanie pojedynczych zmian w plikach. 
+Takie rozwiązanie jest niestety niepozbawione wad. Z każdą wersją zwiększa się rozmiar 
+naszego archiwum i łatwo przy takim podejściu o pomyłkę np. poprzez wprowadzenie zmiany w złym katalogu. 
+Cofanie zmian w pojedynczych jest bardzo trudne. 
 
-Sprawa jeszcze bardziej się komplikuje, gdy nad projektem pracuje więcej niż jedna osoba.
-W jaki sposób przechowywać kopie każdego z pracujących przy projekcie programistów.
-Jak łączyć wykonaną przez nich pracę do jednego projektu.
+Jeszcze większa komplikacja następuje wtedy, gdy nad projektem pracuje więcej niż jedna osoba.
+W jaki sposób przechowywać odrębie kopie każdego z pracujących przy projekcie programistów oraz
+jak łączyć wykonaną przez nich pracę do jednego projektu?
 
-Rozwiązaniem powyższych problemów są systemy kontroli wersji, 
-które pozwalają w łatwy sposób zapisywać poszczególne wersje. 
-Mamy możliwość przeglądania historii zmian, sprawdzać kto i kiedy jaką modyfikację wykonał.
+Rozwiązaniem tych problemów są systemy kontroli wersji, 
+które pozwalają w łatwy sposób zapisywać poszczególne wersje projektu. 
+Mamy możliwość przeglądania historii zmian, sprawdzać kto i kiedy jaką modyfikację zastosował.
 
-Programiści, tworząc aplikację, dokonują ciągłych zmian w jej kodzie, publikują nowe jej wersje.
-Dzięki dodatkowym mechanizmom możemy łączyć zmiany wykonywane przez wielu programistów.
+Programiści, tworząc aplikację, dokonują ciągłych zmian w jej kodzie oraz publikują jej nowe wersje.
+Dzięki dodatkowym mechanizmom, możemy łączyć zmiany, wykonywane przez wielu programistów w jedną całość.
 
 Na kursie zapoznamy się z systemem kontroli wersji git, który udostępniany jest m.in. przez portal github.com.
-GitHub jest serwisem internetowym przeznaczonym dla projektów programistycznych, które wykorzystują system kontroli wersji git.
+GitHub jest serwisem internetowym, przeznaczonym dla projektów programistycznych, wykorzystujących system kontroli wersji git.
 
 Umożliwia on tworzenie repozytoriów z kodem, czyli w praktyce, katalogów z projektem.
-W ramach serwisu github.com możemy tworzyć repozytoria publiczne — ich zawartość jest dostępna publicznie.
-Innym typem są repozytoria prywatne — te wymagają praw dostępu, które samodzielnie definiujemy.
+W ramach serwisu github.com możemy tworzyć repozytoria publiczne, co oznacza, że ich zawartość jest dostępna publicznie.
+Innym typem są repozytoria prywatne — te wymagają praw dostępu, które samodzielnie jesteśmy w stanie zdefiniować.
 
-Git nie jest jedynym systemem tego typu, ale na pewno najpopularniejszym. 
+Git nie jest jedynym systemem tego typu, ale zdecydowanie najpopularniejszym. 
 
-Istnieją również alternatywne dla github.com serwisy np. bitbucket.com czy gitlab.com.
+Istnieją również alternatywy dla github.com, czyli serwisy takie jak: bitbucket.com czy gitlab.com.
  
-Ponownie github.com jest najpopularniejszym z nich.
+I tu, ponownie github.com jest najpopularniejszym z nich.
 
 Podczas kursu, w serwisie GitHub będą Ci udostępniane zadania oraz egzaminy. 
 Pierwszą styczność z serwisem będziesz mieć już podczas wykonywania zadań przygotowujących, czyli preworku.
@@ -63,4 +63,4 @@ Poniżej przykład takiej wiadomości:
 
 ![image info](images/email-verify.png)
 
-Gratulacje właśnie prawidłowo utworzyłeś konto w serwisie GitHub.
+Gratulacje! Właśnie prawidłowo utworzyłeś konto w serwisie GitHub.
